@@ -1,0 +1,13 @@
+{
+  "dev": {
+    "app_function": "webapp.app.app",
+    "profile_name": "personal",
+    "project_name": "tryzappa1",
+    "runtime": "python3.8",
+    "s3_bucket": "zappa-dt9fmve32",
+    "aws_region": "eu-west-1",
+    "authorizer": {
+      "function": "webapp.auth.lambda_handler"
+    }
+  }
+}
